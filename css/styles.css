@@ -84,7 +84,10 @@ color: var(--main-color);
 }
 
 /* ======= Index.html ======= */
-
+.button:hover,
+.button:focus {
+    color: var(--main-color);
+}
 /* ======== Hero ========= */
 .section-hero {
     background-color: var(--background-color-dark);
