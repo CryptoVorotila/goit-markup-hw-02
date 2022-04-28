@@ -89,7 +89,8 @@ color: var(--main-color);
 /* ======= Index.html ======= */
 .button:hover,
 .button:focus {
-    color: var(--main-color);
+    background-color: var(--secondary-color);
+    color: var(--background-color-dark);
     letter-spacing: 0.06em;
 }
 /* ======== Hero ========= */
@@ -103,8 +104,8 @@ color: var(--main-color);
     line-height: 1.36;
     font-weight: 900;
     letter-spacing: 0.06em;
+    }
     
-}
 /* ====== Advantage ======= */
 .advantage-title {
     font-size: 14px;
@@ -114,10 +115,14 @@ color: var(--main-color);
 .advantage-text {
     color: var(--secondary-color);
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
      }
 
 /* ======= Team ===== */
+.team {
+    background-color: var(--background-color-light);
+}
 .team-title {
     font-weight: 500;
     font-size: 16px;
@@ -146,6 +151,7 @@ color: var(--main-color);
 
 .link-footer {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 } 
 .link-footer:hover,
 .link-footer:focus,
