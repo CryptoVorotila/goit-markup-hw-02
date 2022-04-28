@@ -2,8 +2,10 @@
 :root {
  --main-color: #212121;
  --secondary-color: #757575; 
- --main-color-light: #ffffff;
+ --main-color-light: hsl(0, 0%, 100%);
  --accent-color: #2196F3;
+ --button-hover: rgba(33,150,243,0.5);
+ --link-footer-color: rgba(255, 255, 255, 0.6);
  --background-color-main: #E5E5E5;
  --background-color-dark: #2F303A;
  --background-color-light: #F5F4FA;
@@ -47,6 +49,7 @@ a {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     border: 0;
     cursor: pointer;
 }
@@ -89,9 +92,8 @@ color: var(--main-color);
 /* ======= Index.html ======= */
 .button:hover,
 .button:focus {
-    background-color: var(--secondary-color);
-    color: var(--background-color-dark);
-    letter-spacing: 0.06em;
+    background-color: var(--button-hover);
+    
 }
 /* ======== Hero ========= */
 .section-hero {
@@ -150,7 +152,7 @@ color: var(--main-color);
 }
 
 .link-footer {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--link-footer-color);
     font-style: normal;
 } 
 .link-footer:hover,
